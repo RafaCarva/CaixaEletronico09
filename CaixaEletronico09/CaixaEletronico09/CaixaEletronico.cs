@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace CaixaEletronico09.Entities
+{
 
     /// <summary>
     /// Classe principal da lib, a aplicação "principall" deve instanciar e usar essa classe.
