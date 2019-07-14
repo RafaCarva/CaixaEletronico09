@@ -12,6 +12,14 @@ namespace CaixaEletronico09.Entities
 
         }
 
+        /// <summary>
+        /// A instância do cofre recebido estará zerada, e será devolvida com
+        /// o valor atualizado.
+        /// </summary>
+        /// <param name="cofre"></param>
+        /// <param name="nota"></param>
+        /// <param name="quantidade"></param>
+        /// <returns>O retorno será a instância "atual" do cofre</returns>
         public Cofre CarregaCaixa(Cofre cofre, int nota, int quantidade)
         {
             switch (nota)

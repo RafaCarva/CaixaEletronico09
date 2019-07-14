@@ -23,6 +23,11 @@ namespace CaixaEletronico09.Entities
             totalNotas20 = 0;
             totalNotas50 = 0;
         }
+
+        /// <summary>
+        /// Formatação do print para opção de exibir o total de notas
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             return "SALDO DO CAIXA ===============\n"

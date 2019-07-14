@@ -2,4 +2,6 @@
 Simulador de caixa eletrônico.
 
 
-[![Build status](https://ci.appveyor.com/api/projects/status/7jd7x25y3o71n95l?svg=true)](https://ci.appveyor.com/project/RafaCarva/librarycalc09)
+[![Build status](https://ci.appveyor.com/api/projects/status/ldfmgm41sj02we4j/branch/master?svg=true)](https://ci.appveyor.com/project/RafaCarva/caixaeletronico09/branch/master)
+
+
