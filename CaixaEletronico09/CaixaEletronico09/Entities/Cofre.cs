@@ -22,6 +22,7 @@ namespace CaixaEletronico09.Entities
             totalNotas10 = 0;
             totalNotas20 = 0;
             totalNotas50 = 0;
+            totalCofre = 0;
         }
 
         /// <summary>
@@ -30,10 +31,11 @@ namespace CaixaEletronico09.Entities
         /// <returns></returns>
         public override string ToString()
         {
-            return "SALDO DO CAIXA ===============\n"
-                + "Notas de 10: " + totalNotas10 + "unidades\n"
-                + "Notas de 20: " + totalNotas20 + "unidades\n"
-                + "Notas de 50: " + totalNotas50 + "unidades\n";
+            return "==========SALDO DO CAIXA==========\n"
+                + "Notas de 10: " + totalNotas10 + " unidades\n"
+                + "Notas de 20: " + totalNotas20 + " unidades\n"
+                + "Notas de 50: " + totalNotas50 + " unidades\n"
+                + "Total de dinheiro no caixa: R$"+totalCofre+",00";
 
         }
     }

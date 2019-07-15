@@ -6,10 +6,8 @@ namespace CaixaEletronico09.Entities
 {
     public sealed class Carregar : ICarregar
     {
-
         public Carregar()
         {
-
         }
 
         /// <summary>
