@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using CaixaEletronico09.Entities;
 
-namespace CaixaEletronico09.Entities
+namespace CaixaEletronico09
 {
 
     /// <summary>
