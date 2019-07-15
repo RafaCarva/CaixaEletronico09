@@ -11,9 +11,9 @@ namespace CaixaEletronico09
     /// </summary>
     public class CaixaEletronico
     {
-        Cofre cofre = new Cofre();
-        Carregar carregar = new Carregar();
-        Sacar sacar = new Sacar();
+        public Cofre cofre = new Cofre();
+        public Carregar carregar = new Carregar();
+        public Sacar sacar = new Sacar();
 
         /// <summary>
         /// A classe concreta do projeto que importar essa lib

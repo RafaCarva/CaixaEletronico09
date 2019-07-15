@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CaixaEletronico09.Entities
 {
-    sealed class Carregar : ICarregar
+    public sealed class Carregar : ICarregar
     {
 
         public Carregar()
