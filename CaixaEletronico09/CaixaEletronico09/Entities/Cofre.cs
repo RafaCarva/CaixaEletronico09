@@ -10,13 +10,8 @@ namespace CaixaEletronico09.Entities
         public int totalNotas20 { get; set; }
         public int totalNotas50 { get; set; }
 
-        public int totalCofre;
-        public int getTotalCofre() {
-            return (totalNotas10 * 10)
-                      + (totalNotas20 * 20)
-                      + (totalNotas50 * 50);
-        }
-        private void setTotalCofre(int value) { this.totalCofre = value; }
+        public int totalCofre { get; set; };
+
 
 
         public Cofre()
