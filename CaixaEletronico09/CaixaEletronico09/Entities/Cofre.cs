@@ -10,7 +10,7 @@ namespace CaixaEletronico09.Entities
         public int totalNotas20 { get; set; }
         public int totalNotas50 { get; set; }
 
-        public int totalCofre { get; set; };
+        public int totalCofre { get; set; }
 
 
 
