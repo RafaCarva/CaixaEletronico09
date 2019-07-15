@@ -14,7 +14,7 @@ namespace CaixaEletronico09.Entities
                 return (totalNotas10 * 10)
                   + (totalNotas20 * 20)
                   + (totalNotas50 * 50); }
-            set { totalCofre = value; }
+            set { this.totalCofre = value; }
         }
 
         public Cofre()
